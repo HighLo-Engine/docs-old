@@ -19,7 +19,7 @@ const FeatureList = [
     description: (
       <>
         You design the game, we do the rest!
-        While you are working on your game, we are working on our engine to continousley improve your user expierence and the performance of the engine
+        While you are working on your game, we are working on our engine to continousley improve your user experience and the performance of the engine
       </>
     ),
   },
