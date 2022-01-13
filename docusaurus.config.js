@@ -54,27 +54,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'docs-api',
-        path: 'docs-api',
-        routeBasePath: 'docs-api',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'docs',
-        path: 'docs',
-        routeBasePath: 'docs',
-        sidebarPath: require.resolve('./sidebars.js')
-      }
-    ]
-  ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -86,16 +65,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
         items: [
           {
-            to: '/docs/',
+            type: 'doc',
+            docId: 'intro',
             position: 'left',
             label: 'Getting started',
-            activeBaseRegex: '/docs/'
-          },
-          {
-            to: '/docs-api',
-            position: 'left',
-            label: 'API',
-            activeBaseRegex: '/docs-api/'
           },
           {
             to: '/tutorials',
