@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   tagline: 'HighLo-Engine Documentation',
   url: 'https://docs.highlo-engine.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', // throw
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'HighLo-Engine', // Usually your GitHub org/user name.
@@ -38,18 +38,41 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/HighLo-Engine/docs/edit/master/',
+
+          routeBasePath: 'docs',
+          path: 'docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/HighLo-Engine/docs/edit/master/blog/',
+          editUrl: 'https://github.com/HighLo-Engine/docs/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-api',
+        path: 'docs-api',
+        routeBasePath: 'docs-api',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs',
+        path: 'docs',
+        routeBasePath: 'docs',
+        sidebarPath: require.resolve('./sidebars.js')
+      }
+    ]
   ],
 
   themeConfig:
@@ -63,15 +86,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            to: '/docs/',
             position: 'left',
             label: 'Getting started',
+            activeBaseRegex: '/docs/'
           },
           {
-            to: '/docs/api',
-            label: 'API Documentation',
-            position: 'left'
+            to: '/docs-api',
+            position: 'left',
+            label: 'API',
+            activeBaseRegex: '/docs-api/'
           },
           {
             to: '/tutorials',
@@ -83,6 +107,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             to: '/blog',
             label: 'Blog',
             position: 'left'
+          },
+          */
+         /*
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+            dropdownActiveClassDisabled: true,
           },
           */
           {
@@ -135,7 +167,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Can Karka and Albert Slepak. Built with Docusaurus. All Right reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Can Karka and Albert Slepak. Built with Docusaurus. All Rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
