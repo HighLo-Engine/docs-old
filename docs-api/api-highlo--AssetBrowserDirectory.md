@@ -1,0 +1,41 @@
+## class `highlo::AssetBrowserDirectory` {#classhighlo_1_1_asset_browser_directory}
+
+```
+class highlo::AssetBrowserDirectory
+  : public highlo::AssetBrowserBaseItem
+```
+
+### Summary
+
+ Members                        | Descriptions                                
+--------------------------------|---------------------------------------------
+`public `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` `[`AssetBrowserDirectory`](#classhighlo_1_1_asset_browser_directory_a75dce017c36503f7ba494b5cfb13026d_1a75dce017c36503f7ba494b5cfb13026d)`(const `[`Ref](docs-api/api-highlo.md#namespacehighlo_a487a959d9631925fcb62bb6e76a0cffa_1a487a959d9631925fcb62bb6e76a0cffa)< [DirectoryInfo`](docs-api/api-highlo--DirectoryInfo.md#structhighlo_1_1_directory_info)` > & dirInfo,const `[`Ref](docs-api/api-highlo.md#namespacehighlo_a487a959d9631925fcb62bb6e76a0cffa_1a487a959d9631925fcb62bb6e76a0cffa)< [Texture2D`](docs-api/api-highlo--Texture2D.md#classhighlo_1_1_texture2_d)` > & icon)` | 
+`public virtual `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` `[`~AssetBrowserDirectory`](#classhighlo_1_1_asset_browser_directory_a7a6bc24123680e2ab57c92ca3cc34d65_1a7a6bc24123680e2ab57c92ca3cc34d65)`()` | 
+`public inline `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[Ref](docs-api/api-highlo.md#namespacehighlo_a487a959d9631925fcb62bb6e76a0cffa_1a487a959d9631925fcb62bb6e76a0cffa)< [DirectoryInfo`](docs-api/api-highlo--DirectoryInfo.md#structhighlo_1_1_directory_info)` > & `[`GetDirectoryInfo`](#classhighlo_1_1_asset_browser_directory_acaf3ea1a45efc93f871967c9c435cf5c_1acaf3ea1a45efc93f871967c9c435cf5c)`()` | 
+`public virtual `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Delete`](#classhighlo_1_1_asset_browser_directory_ace8ab4beca56027f56e2b96e9924a575_1ace8ab4beca56027f56e2b96e9924a575)`()` | 
+`public virtual `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` bool `[`Move`](#classhighlo_1_1_asset_browser_directory_a81bab72ea09ebc3f64ad5844da9b318a_1a81bab72ea09ebc3f64ad5844da9b318a)`(const `[`FileSystemPath`](docs-api/api-highlo--FileSystemPath.md#classhighlo_1_1_file_system_path)` & dest)` | 
+`private `[`Ref](docs-api/api-highlo.md#namespacehighlo_a487a959d9631925fcb62bb6e76a0cffa_1a487a959d9631925fcb62bb6e76a0cffa)< [DirectoryInfo`](docs-api/api-highlo--DirectoryInfo.md#structhighlo_1_1_directory_info)` > `[`m_DirectoryInfo`](#classhighlo_1_1_asset_browser_directory_1a91e0253f1139654af3051704ba78c4b5) | 
+`private virtual `[`void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Activate`](#classhighlo_1_1_asset_browser_directory_1af9f0da347e26ca53d55a91425e6cf98a)`(`[`AssetBrowserActionResult`](docs-api/api-highlo--AssetBrowserActionResult.md#structhighlo_1_1_asset_browser_action_result)` & actionResult)` | 
+`private virtual `[`void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`OnRenamed`](#classhighlo_1_1_asset_browser_directory_1a7b393b0a6d0b5bcf718e797efb436a47)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & newName)` | 
+`private virtual `[`void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`UpdateDrop`](#classhighlo_1_1_asset_browser_directory_1a4a2043a567d72fe487bf67a33f1fd0ab)`(`[`AssetBrowserActionResult`](docs-api/api-highlo--AssetBrowserActionResult.md#structhighlo_1_1_asset_browser_action_result)` & actionResult)` | 
+
+### Members
+
+#### `public `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` `[`AssetBrowserDirectory`](#classhighlo_1_1_asset_browser_directory_a75dce017c36503f7ba494b5cfb13026d_1a75dce017c36503f7ba494b5cfb13026d)`(const `[`Ref](docs-api/api-highlo.md#namespacehighlo_a487a959d9631925fcb62bb6e76a0cffa_1a487a959d9631925fcb62bb6e76a0cffa)< [DirectoryInfo`](docs-api/api-highlo--DirectoryInfo.md#structhighlo_1_1_directory_info)` > & dirInfo,const `[`Ref](docs-api/api-highlo.md#namespacehighlo_a487a959d9631925fcb62bb6e76a0cffa_1a487a959d9631925fcb62bb6e76a0cffa)< [Texture2D`](docs-api/api-highlo--Texture2D.md#classhighlo_1_1_texture2_d)` > & icon)` {#classhighlo_1_1_asset_browser_directory_a75dce017c36503f7ba494b5cfb13026d_1a75dce017c36503f7ba494b5cfb13026d}
+
+#### `public virtual `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` `[`~AssetBrowserDirectory`](#classhighlo_1_1_asset_browser_directory_a7a6bc24123680e2ab57c92ca3cc34d65_1a7a6bc24123680e2ab57c92ca3cc34d65)`()` {#classhighlo_1_1_asset_browser_directory_a7a6bc24123680e2ab57c92ca3cc34d65_1a7a6bc24123680e2ab57c92ca3cc34d65}
+
+#### `public inline `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[Ref](docs-api/api-highlo.md#namespacehighlo_a487a959d9631925fcb62bb6e76a0cffa_1a487a959d9631925fcb62bb6e76a0cffa)< [DirectoryInfo`](docs-api/api-highlo--DirectoryInfo.md#structhighlo_1_1_directory_info)` > & `[`GetDirectoryInfo`](#classhighlo_1_1_asset_browser_directory_acaf3ea1a45efc93f871967c9c435cf5c_1acaf3ea1a45efc93f871967c9c435cf5c)`()` {#classhighlo_1_1_asset_browser_directory_acaf3ea1a45efc93f871967c9c435cf5c_1acaf3ea1a45efc93f871967c9c435cf5c}
+
+#### `public virtual `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Delete`](#classhighlo_1_1_asset_browser_directory_ace8ab4beca56027f56e2b96e9924a575_1ace8ab4beca56027f56e2b96e9924a575)`()` {#classhighlo_1_1_asset_browser_directory_ace8ab4beca56027f56e2b96e9924a575_1ace8ab4beca56027f56e2b96e9924a575}
+
+#### `public virtual `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` bool `[`Move`](#classhighlo_1_1_asset_browser_directory_a81bab72ea09ebc3f64ad5844da9b318a_1a81bab72ea09ebc3f64ad5844da9b318a)`(const `[`FileSystemPath`](docs-api/api-highlo--FileSystemPath.md#classhighlo_1_1_file_system_path)` & dest)` {#classhighlo_1_1_asset_browser_directory_a81bab72ea09ebc3f64ad5844da9b318a_1a81bab72ea09ebc3f64ad5844da9b318a}
+
+#### `private `[`Ref](docs-api/api-highlo.md#namespacehighlo_a487a959d9631925fcb62bb6e76a0cffa_1a487a959d9631925fcb62bb6e76a0cffa)< [DirectoryInfo`](docs-api/api-highlo--DirectoryInfo.md#structhighlo_1_1_directory_info)` > `[`m_DirectoryInfo`](#classhighlo_1_1_asset_browser_directory_1a91e0253f1139654af3051704ba78c4b5) {#classhighlo_1_1_asset_browser_directory_1a91e0253f1139654af3051704ba78c4b5}
+
+#### `private virtual `[`void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Activate`](#classhighlo_1_1_asset_browser_directory_1af9f0da347e26ca53d55a91425e6cf98a)`(`[`AssetBrowserActionResult`](docs-api/api-highlo--AssetBrowserActionResult.md#structhighlo_1_1_asset_browser_action_result)` & actionResult)` {#classhighlo_1_1_asset_browser_directory_1af9f0da347e26ca53d55a91425e6cf98a}
+
+#### `private virtual `[`void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`OnRenamed`](#classhighlo_1_1_asset_browser_directory_1a7b393b0a6d0b5bcf718e797efb436a47)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & newName)` {#classhighlo_1_1_asset_browser_directory_1a7b393b0a6d0b5bcf718e797efb436a47}
+
+#### `private virtual `[`void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`UpdateDrop`](#classhighlo_1_1_asset_browser_directory_1a4a2043a567d72fe487bf67a33f1fd0ab)`(`[`AssetBrowserActionResult`](docs-api/api-highlo--AssetBrowserActionResult.md#structhighlo_1_1_asset_browser_action_result)` & actionResult)` {#classhighlo_1_1_asset_browser_directory_1a4a2043a567d72fe487bf67a33f1fd0ab}
+

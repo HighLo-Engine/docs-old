@@ -1,0 +1,21 @@
+## class `highlo::Base64` {#classhighlo_1_1_base64}
+
+### Summary
+
+ Members                        | Descriptions                                
+--------------------------------|---------------------------------------------
+`public static `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` bool `[`IsBase64`](#classhighlo_1_1_base64_aaf97fbdec42f954c9d568122f67b6e45_1aaf97fbdec42f954c9d568122f67b6e45)`(`[`Byte`](#_core_8h_a4598833cddd0ea684d351ebd793b5bb7_1a4598833cddd0ea684d351ebd793b5bb7)` c)` | 
+`public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`Encode`](#classhighlo_1_1_base64_a38e7ef987790e8571c8fcff10472b853_1a38e7ef987790e8571c8fcff10472b853)`(const `[`Byte`](#_core_8h_a4598833cddd0ea684d351ebd793b5bb7_1a4598833cddd0ea684d351ebd793b5bb7)` * buffer,`[`uint32`](#_base_types_8h_a1134b580f8da4de94ca6b1de4d37975e_1a1134b580f8da4de94ca6b1de4d37975e)` bufferLength)` | 
+`public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea) std::vector< [Byte`](#_core_8h_a4598833cddd0ea684d351ebd793b5bb7_1a4598833cddd0ea684d351ebd793b5bb7)` > `[`Decode`](#classhighlo_1_1_base64_a139f1bfb1df143d447c2734a0ef3ba2f_1a139f1bfb1df143d447c2734a0ef3ba2f)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & encodedString)` | 
+`public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`DecodeToString`](#classhighlo_1_1_base64_a3aa72af898f02d130e2a0f1c59dda1cf_1a3aa72af898f02d130e2a0f1c59dda1cf)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & encodedString)` | 
+
+### Members
+
+#### `public static `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` bool `[`IsBase64`](#classhighlo_1_1_base64_aaf97fbdec42f954c9d568122f67b6e45_1aaf97fbdec42f954c9d568122f67b6e45)`(`[`Byte`](#_core_8h_a4598833cddd0ea684d351ebd793b5bb7_1a4598833cddd0ea684d351ebd793b5bb7)` c)` {#classhighlo_1_1_base64_aaf97fbdec42f954c9d568122f67b6e45_1aaf97fbdec42f954c9d568122f67b6e45}
+
+#### `public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`Encode`](#classhighlo_1_1_base64_a38e7ef987790e8571c8fcff10472b853_1a38e7ef987790e8571c8fcff10472b853)`(const `[`Byte`](#_core_8h_a4598833cddd0ea684d351ebd793b5bb7_1a4598833cddd0ea684d351ebd793b5bb7)` * buffer,`[`uint32`](#_base_types_8h_a1134b580f8da4de94ca6b1de4d37975e_1a1134b580f8da4de94ca6b1de4d37975e)` bufferLength)` {#classhighlo_1_1_base64_a38e7ef987790e8571c8fcff10472b853_1a38e7ef987790e8571c8fcff10472b853}
+
+#### `public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea) std::vector< [Byte`](#_core_8h_a4598833cddd0ea684d351ebd793b5bb7_1a4598833cddd0ea684d351ebd793b5bb7)` > `[`Decode`](#classhighlo_1_1_base64_a139f1bfb1df143d447c2734a0ef3ba2f_1a139f1bfb1df143d447c2734a0ef3ba2f)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & encodedString)` {#classhighlo_1_1_base64_a139f1bfb1df143d447c2734a0ef3ba2f_1a139f1bfb1df143d447c2734a0ef3ba2f}
+
+#### `public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`DecodeToString`](#classhighlo_1_1_base64_a3aa72af898f02d130e2a0f1c59dda1cf_1a3aa72af898f02d130e2a0f1c59dda1cf)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & encodedString)` {#classhighlo_1_1_base64_a3aa72af898f02d130e2a0f1c59dda1cf_1a3aa72af898f02d130e2a0f1c59dda1cf}
+

@@ -1,0 +1,3 @@
+[submodule "vendor/moxygen"]
+	path = vendor/moxygen
+	url = https://github.com/Cankar001/moxygen

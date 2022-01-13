@@ -1,0 +1,32 @@
+## class `highlo::Texture3D` {#classhighlo_1_1_texture3_d}
+
+```
+class highlo::Texture3D
+  : public highlo::Texture
+```
+
+### Summary
+
+ Members                        | Descriptions                                
+--------------------------------|---------------------------------------------
+`public inline virtual `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[uint32`](#_base_types_8h_a1134b580f8da4de94ca6b1de4d37975e_1a1134b580f8da4de94ca6b1de4d37975e)` `[`GetDimensions`](#classhighlo_1_1_texture3_d_aaf5d16cb2b23afaef7797d06f2c67ad6_1aaf5d16cb2b23afaef7797d06f2c67ad6)`() const` | 
+`public inline virtual `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[TextureType`](docs-api/api-highlo.md#namespacehighlo_a25d0f1525f282cc7567bf2b4474a781e_1a25d0f1525f282cc7567bf2b4474a781e)` `[`GetType`](#classhighlo_1_1_texture3_d_a69b25592fb063ab52f505e20b7503e3c_1a69b25592fb063ab52f505e20b7503e3c)`() const` | 
+`public inline virtual `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[AssetType`](docs-api/api-highlo.md#namespacehighlo_a7f9ada5660b422804de197333ed74ad2_1a7f9ada5660b422804de197333ed74ad2)` `[`GetAssetType`](#classhighlo_1_1_texture3_d_a66bcf9fb1b2cfe898a5bcb5f260a4a4b_1a66bcf9fb1b2cfe898a5bcb5f260a4a4b)`() const` | 
+`public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[Ref](docs-api/api-highlo.md#namespacehighlo_a487a959d9631925fcb62bb6e76a0cffa_1a487a959d9631925fcb62bb6e76a0cffa)< [Texture3D`](#classhighlo_1_1_texture3_d)` > `[`LoadFromFiles`](#classhighlo_1_1_texture3_d_a5338807f55f9506766e7397698dbece6_1a5338807f55f9506766e7397698dbece6)`(const `[`FileSystemPath`](docs-api/api-highlo--FileSystemPath.md#classhighlo_1_1_file_system_path)` & filepath,bool flipOnLoad)` | 
+`public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[Ref](docs-api/api-highlo.md#namespacehighlo_a487a959d9631925fcb62bb6e76a0cffa_1a487a959d9631925fcb62bb6e76a0cffa)< [Texture3D`](#classhighlo_1_1_texture3_d)` > `[`Create`](#classhighlo_1_1_texture3_d_af3a45e111905ae7422749be0fca7a29a_1af3a45e111905ae7422749be0fca7a29a)`(`[`TextureFormat`](docs-api/api-highlo.md#namespacehighlo_a3fe45292e84f31a3ebae05ef65d5953e_1a3fe45292e84f31a3ebae05ef65d5953e)` format,`[`uint32`](#_base_types_8h_a1134b580f8da4de94ca6b1de4d37975e_1a1134b580f8da4de94ca6b1de4d37975e)` width,`[`uint32`](#_base_types_8h_a1134b580f8da4de94ca6b1de4d37975e_1a1134b580f8da4de94ca6b1de4d37975e)` height,const `[`void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` * data)` | 
+`public inline static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[AssetType`](docs-api/api-highlo.md#namespacehighlo_a7f9ada5660b422804de197333ed74ad2_1a7f9ada5660b422804de197333ed74ad2)` `[`GetStaticType`](#classhighlo_1_1_texture3_d_a4f071c0c75c3d70893feacbdc6d61b54_1a4f071c0c75c3d70893feacbdc6d61b54)`()` | 
+
+### Members
+
+#### `public inline virtual `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[uint32`](#_base_types_8h_a1134b580f8da4de94ca6b1de4d37975e_1a1134b580f8da4de94ca6b1de4d37975e)` `[`GetDimensions`](#classhighlo_1_1_texture3_d_aaf5d16cb2b23afaef7797d06f2c67ad6_1aaf5d16cb2b23afaef7797d06f2c67ad6)`() const` {#classhighlo_1_1_texture3_d_aaf5d16cb2b23afaef7797d06f2c67ad6_1aaf5d16cb2b23afaef7797d06f2c67ad6}
+
+#### `public inline virtual `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[TextureType`](docs-api/api-highlo.md#namespacehighlo_a25d0f1525f282cc7567bf2b4474a781e_1a25d0f1525f282cc7567bf2b4474a781e)` `[`GetType`](#classhighlo_1_1_texture3_d_a69b25592fb063ab52f505e20b7503e3c_1a69b25592fb063ab52f505e20b7503e3c)`() const` {#classhighlo_1_1_texture3_d_a69b25592fb063ab52f505e20b7503e3c_1a69b25592fb063ab52f505e20b7503e3c}
+
+#### `public inline virtual `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[AssetType`](docs-api/api-highlo.md#namespacehighlo_a7f9ada5660b422804de197333ed74ad2_1a7f9ada5660b422804de197333ed74ad2)` `[`GetAssetType`](#classhighlo_1_1_texture3_d_a66bcf9fb1b2cfe898a5bcb5f260a4a4b_1a66bcf9fb1b2cfe898a5bcb5f260a4a4b)`() const` {#classhighlo_1_1_texture3_d_a66bcf9fb1b2cfe898a5bcb5f260a4a4b_1a66bcf9fb1b2cfe898a5bcb5f260a4a4b}
+
+#### `public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[Ref](docs-api/api-highlo.md#namespacehighlo_a487a959d9631925fcb62bb6e76a0cffa_1a487a959d9631925fcb62bb6e76a0cffa)< [Texture3D`](#classhighlo_1_1_texture3_d)` > `[`LoadFromFiles`](#classhighlo_1_1_texture3_d_a5338807f55f9506766e7397698dbece6_1a5338807f55f9506766e7397698dbece6)`(const `[`FileSystemPath`](docs-api/api-highlo--FileSystemPath.md#classhighlo_1_1_file_system_path)` & filepath,bool flipOnLoad)` {#classhighlo_1_1_texture3_d_a5338807f55f9506766e7397698dbece6_1a5338807f55f9506766e7397698dbece6}
+
+#### `public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[Ref](docs-api/api-highlo.md#namespacehighlo_a487a959d9631925fcb62bb6e76a0cffa_1a487a959d9631925fcb62bb6e76a0cffa)< [Texture3D`](#classhighlo_1_1_texture3_d)` > `[`Create`](#classhighlo_1_1_texture3_d_af3a45e111905ae7422749be0fca7a29a_1af3a45e111905ae7422749be0fca7a29a)`(`[`TextureFormat`](docs-api/api-highlo.md#namespacehighlo_a3fe45292e84f31a3ebae05ef65d5953e_1a3fe45292e84f31a3ebae05ef65d5953e)` format,`[`uint32`](#_base_types_8h_a1134b580f8da4de94ca6b1de4d37975e_1a1134b580f8da4de94ca6b1de4d37975e)` width,`[`uint32`](#_base_types_8h_a1134b580f8da4de94ca6b1de4d37975e_1a1134b580f8da4de94ca6b1de4d37975e)` height,const `[`void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` * data)` {#classhighlo_1_1_texture3_d_af3a45e111905ae7422749be0fca7a29a_1af3a45e111905ae7422749be0fca7a29a}
+
+#### `public inline static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[AssetType`](docs-api/api-highlo.md#namespacehighlo_a7f9ada5660b422804de197333ed74ad2_1a7f9ada5660b422804de197333ed74ad2)` `[`GetStaticType`](#classhighlo_1_1_texture3_d_a4f071c0c75c3d70893feacbdc6d61b54_1a4f071c0c75c3d70893feacbdc6d61b54)`()` {#classhighlo_1_1_texture3_d_a4f071c0c75c3d70893feacbdc6d61b54_1a4f071c0c75c3d70893feacbdc6d61b54}
+

@@ -1,0 +1,24 @@
+## class `highlo::ShaderCache` {#classhighlo_1_1_shader_cache}
+
+### Summary
+
+ Members                        | Descriptions                                
+--------------------------------|---------------------------------------------
+`public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Init`](#classhighlo_1_1_shader_cache_a559f44273e1e87e9eafcc1e25b9139cc_1a559f44273e1e87e9eafcc1e25b9139cc)`()` | 
+`public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Shutdown`](#classhighlo_1_1_shader_cache_a256f4ecd294eb8a5e2723c362a1cc3cc_1a256f4ecd294eb8a5e2723c362a1cc3cc)`()` | 
+`public static `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` bool `[`HasChanged`](#classhighlo_1_1_shader_cache_a14c47cb4b59672ae908bc55edb589527_1a14c47cb4b59672ae908bc55edb589527)`(const `[`FileSystemPath`](docs-api/api-highlo--FileSystemPath.md#classhighlo_1_1_file_system_path)` & filePath,const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & source)` | 
+`private static `[`void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Serialize`](#classhighlo_1_1_shader_cache_1a4f40f808b3d05cbf858b5fb62721e4eb)`(const std::map< `[`HLString](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538), [uint64`](#_base_types_8h_a29940ae63ec06c9998bba873e25407ad_1a29940ae63ec06c9998bba873e25407ad)` > & shaderCache)` | 
+`private static `[`void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Deserialize`](#classhighlo_1_1_shader_cache_1aefaca501d82c8b859c484c5e623efb44)`(std::map< `[`HLString](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538), [uint64`](#_base_types_8h_a29940ae63ec06c9998bba873e25407ad_1a29940ae63ec06c9998bba873e25407ad)` > & shaderCache)` | 
+
+### Members
+
+#### `public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Init`](#classhighlo_1_1_shader_cache_a559f44273e1e87e9eafcc1e25b9139cc_1a559f44273e1e87e9eafcc1e25b9139cc)`()` {#classhighlo_1_1_shader_cache_a559f44273e1e87e9eafcc1e25b9139cc_1a559f44273e1e87e9eafcc1e25b9139cc}
+
+#### `public static `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Shutdown`](#classhighlo_1_1_shader_cache_a256f4ecd294eb8a5e2723c362a1cc3cc_1a256f4ecd294eb8a5e2723c362a1cc3cc)`()` {#classhighlo_1_1_shader_cache_a256f4ecd294eb8a5e2723c362a1cc3cc_1a256f4ecd294eb8a5e2723c362a1cc3cc}
+
+#### `public static `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` bool `[`HasChanged`](#classhighlo_1_1_shader_cache_a14c47cb4b59672ae908bc55edb589527_1a14c47cb4b59672ae908bc55edb589527)`(const `[`FileSystemPath`](docs-api/api-highlo--FileSystemPath.md#classhighlo_1_1_file_system_path)` & filePath,const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & source)` {#classhighlo_1_1_shader_cache_a14c47cb4b59672ae908bc55edb589527_1a14c47cb4b59672ae908bc55edb589527}
+
+#### `private static `[`void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Serialize`](#classhighlo_1_1_shader_cache_1a4f40f808b3d05cbf858b5fb62721e4eb)`(const std::map< `[`HLString](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538), [uint64`](#_base_types_8h_a29940ae63ec06c9998bba873e25407ad_1a29940ae63ec06c9998bba873e25407ad)` > & shaderCache)` {#classhighlo_1_1_shader_cache_1a4f40f808b3d05cbf858b5fb62721e4eb}
+
+#### `private static `[`void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Deserialize`](#classhighlo_1_1_shader_cache_1aefaca501d82c8b859c484c5e623efb44)`(std::map< `[`HLString](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538), [uint64`](#_base_types_8h_a29940ae63ec06c9998bba873e25407ad_1a29940ae63ec06c9998bba873e25407ad)` > & shaderCache)` {#classhighlo_1_1_shader_cache_1aefaca501d82c8b859c484c5e623efb44}
+

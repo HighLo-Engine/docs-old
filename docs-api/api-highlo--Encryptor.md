@@ -1,0 +1,50 @@
+## class `highlo::Encryptor` {#classhighlo_1_1_encryptor}
+
+```
+class highlo::Encryptor
+  : public highlo::IsSharedReference
+```
+
+### Summary
+
+ Members                        | Descriptions                                
+--------------------------------|---------------------------------------------
+`public `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` `[`Encryptor`](#classhighlo_1_1_encryptor_aa85d504444d61578a89e3ab0bc1af7b8_1aa85d504444d61578a89e3ab0bc1af7b8)`() = default` | 
+`public `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` `[`Encryptor`](#classhighlo_1_1_encryptor_a92a2be913bed00d91d8f82ee9748d8f6_1a92a2be913bed00d91d8f82ee9748d8f6)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & key,const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & iv,`[`EncryptionAlgorithm`](docs-api/api-highlo.md#namespacehighlo_ab7be28d1d17e3838626a97a56efb3f2e_1ab7be28d1d17e3838626a97a56efb3f2e)` algorithm)` | 
+`public `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` `[`~Encryptor`](#classhighlo_1_1_encryptor_aab1c89978f68fe142691829cdf17ed30_1aab1c89978f68fe142691829cdf17ed30)`()` | 
+`public `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Init`](#classhighlo_1_1_encryptor_a1dfc9f7eaa966ce95cc77a1c34189f56_1a1dfc9f7eaa966ce95cc77a1c34189f56)`()` | 
+`public `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Shutdown`](#classhighlo_1_1_encryptor_a9cf1ee38e8fb36bab6b173d5ff8e4009_1a9cf1ee38e8fb36bab6b173d5ff8e4009)`()` | 
+`public `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`Encrypt`](#classhighlo_1_1_encryptor_ae8f91db65472419e06af8c73221f317d_1ae8f91db65472419e06af8c73221f317d)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & plainText)` | 
+`public `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`Decrypt`](#classhighlo_1_1_encryptor_a3566aa6eaf987a78ec359f902c5865f7_1a3566aa6eaf987a78ec359f902c5865f7)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & cipherText)` | 
+`public `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`EncryptBase64`](#classhighlo_1_1_encryptor_ad6d5f4222b0ac6b43e73ac234ef031cc_1ad6d5f4222b0ac6b43e73ac234ef031cc)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & plainText)` | 
+`public `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`DecryptBase64`](#classhighlo_1_1_encryptor_a2556261b61b8af1edc73cee5884e6456_1a2556261b61b8af1edc73cee5884e6456)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & cipherText)` | 
+`private `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`m_Key`](#classhighlo_1_1_encryptor_1aae19f6bbda72a8f993ca47a62743f46a) | 
+`private `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`m_IV`](#classhighlo_1_1_encryptor_1aea51b67e8ceb9de71edbdd287d831aaa) | 
+`private `[`EncryptionAlgorithm`](docs-api/api-highlo.md#namespacehighlo_ab7be28d1d17e3838626a97a56efb3f2e_1ab7be28d1d17e3838626a97a56efb3f2e)` `[`m_Algorithm`](#classhighlo_1_1_encryptor_1ae2b52587523efa924715831832f7a7fc) | 
+
+### Members
+
+#### `public `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` `[`Encryptor`](#classhighlo_1_1_encryptor_aa85d504444d61578a89e3ab0bc1af7b8_1aa85d504444d61578a89e3ab0bc1af7b8)`() = default` {#classhighlo_1_1_encryptor_aa85d504444d61578a89e3ab0bc1af7b8_1aa85d504444d61578a89e3ab0bc1af7b8}
+
+#### `public `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` `[`Encryptor`](#classhighlo_1_1_encryptor_a92a2be913bed00d91d8f82ee9748d8f6_1a92a2be913bed00d91d8f82ee9748d8f6)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & key,const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & iv,`[`EncryptionAlgorithm`](docs-api/api-highlo.md#namespacehighlo_ab7be28d1d17e3838626a97a56efb3f2e_1ab7be28d1d17e3838626a97a56efb3f2e)` algorithm)` {#classhighlo_1_1_encryptor_a92a2be913bed00d91d8f82ee9748d8f6_1a92a2be913bed00d91d8f82ee9748d8f6}
+
+#### `public `[`HLAPI`](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)` `[`~Encryptor`](#classhighlo_1_1_encryptor_aab1c89978f68fe142691829cdf17ed30_1aab1c89978f68fe142691829cdf17ed30)`()` {#classhighlo_1_1_encryptor_aab1c89978f68fe142691829cdf17ed30_1aab1c89978f68fe142691829cdf17ed30}
+
+#### `public `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Init`](#classhighlo_1_1_encryptor_a1dfc9f7eaa966ce95cc77a1c34189f56_1a1dfc9f7eaa966ce95cc77a1c34189f56)`()` {#classhighlo_1_1_encryptor_a1dfc9f7eaa966ce95cc77a1c34189f56_1a1dfc9f7eaa966ce95cc77a1c34189f56}
+
+#### `public `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[void`](#imgui__impl__opengl3__loader_8h_ac668e7cffd9e2e9cfee428b9b2f34fa7_1ac668e7cffd9e2e9cfee428b9b2f34fa7)` `[`Shutdown`](#classhighlo_1_1_encryptor_a9cf1ee38e8fb36bab6b173d5ff8e4009_1a9cf1ee38e8fb36bab6b173d5ff8e4009)`()` {#classhighlo_1_1_encryptor_a9cf1ee38e8fb36bab6b173d5ff8e4009_1a9cf1ee38e8fb36bab6b173d5ff8e4009}
+
+#### `public `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`Encrypt`](#classhighlo_1_1_encryptor_ae8f91db65472419e06af8c73221f317d_1ae8f91db65472419e06af8c73221f317d)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & plainText)` {#classhighlo_1_1_encryptor_ae8f91db65472419e06af8c73221f317d_1ae8f91db65472419e06af8c73221f317d}
+
+#### `public `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`Decrypt`](#classhighlo_1_1_encryptor_a3566aa6eaf987a78ec359f902c5865f7_1a3566aa6eaf987a78ec359f902c5865f7)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & cipherText)` {#classhighlo_1_1_encryptor_a3566aa6eaf987a78ec359f902c5865f7_1a3566aa6eaf987a78ec359f902c5865f7}
+
+#### `public `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`EncryptBase64`](#classhighlo_1_1_encryptor_ad6d5f4222b0ac6b43e73ac234ef031cc_1ad6d5f4222b0ac6b43e73ac234ef031cc)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & plainText)` {#classhighlo_1_1_encryptor_ad6d5f4222b0ac6b43e73ac234ef031cc_1ad6d5f4222b0ac6b43e73ac234ef031cc}
+
+#### `public `[`HLAPI](#_core_8h_a1d2309cd37fc69b9129facf43df916ea_1a1d2309cd37fc69b9129facf43df916ea)[HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`DecryptBase64`](#classhighlo_1_1_encryptor_a2556261b61b8af1edc73cee5884e6456_1a2556261b61b8af1edc73cee5884e6456)`(const `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` & cipherText)` {#classhighlo_1_1_encryptor_a2556261b61b8af1edc73cee5884e6456_1a2556261b61b8af1edc73cee5884e6456}
+
+#### `private `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`m_Key`](#classhighlo_1_1_encryptor_1aae19f6bbda72a8f993ca47a62743f46a) {#classhighlo_1_1_encryptor_1aae19f6bbda72a8f993ca47a62743f46a}
+
+#### `private `[`HLString`](docs-api/api-highlo.md#namespacehighlo_aae9b5b2474b992680f5555779f4bd538_1aae9b5b2474b992680f5555779f4bd538)` `[`m_IV`](#classhighlo_1_1_encryptor_1aea51b67e8ceb9de71edbdd287d831aaa) {#classhighlo_1_1_encryptor_1aea51b67e8ceb9de71edbdd287d831aaa}
+
+#### `private `[`EncryptionAlgorithm`](docs-api/api-highlo.md#namespacehighlo_ab7be28d1d17e3838626a97a56efb3f2e_1ab7be28d1d17e3838626a97a56efb3f2e)` `[`m_Algorithm`](#classhighlo_1_1_encryptor_1ae2b52587523efa924715831832f7a7fc) {#classhighlo_1_1_encryptor_1ae2b52587523efa924715831832f7a7fc}
+
