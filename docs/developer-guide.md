@@ -1,5 +1,5 @@
 ---
-title: Developer starter guide
+sidebar_label: Developer starter guide
 sidebar_position: 2
 sidebar_class_name: dev-starter-guide
 ---
@@ -17,7 +17,7 @@ In this section you will learn what is needed to run a minimal example and get a
 
 ### The Main class
 
-The engine has a Application class, that is used to control the hole engine. It holds the main game loop, handles all events and is responsible for updating all attached layers and the client application. In order to attach you client application to this main class, you have to implement a custom class that extends from the application class and implements all virtual functions like this:
+The engine has a Application class, that is used to control the hole engine. It holds the main game loop, handles all events and is responsible for updating all attached layers and the client application. In order to attach your client application to this main class, you have to implement a custom class that extends from the application class and implements all virtual functions like this:
 
 ```cpp title="YourApp.h"
 #include <HighLo.h>
