@@ -54,6 +54,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ],
   ],
 
+  plugins: [
+    'plugin-image-zoom'
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -61,7 +65,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: 'HighLo-Docs',
         logo: {
           alt: 'HighLo-Engine Logo',
-          src: 'img/logo.svg',
+          src: 'img/HighLo.png',
         },
         items: [
           {
@@ -75,13 +79,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Tutorials',
             position: 'left'
           },
-          /*
           {
-            to: '/blog',
+            to: 'blog',
             label: 'Blog',
             position: 'left'
           },
-          */
          /*
           {
             type: 'docsVersionDropdown',
@@ -90,10 +92,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             dropdownActiveClassDisabled: true,
           },
           */
+         /*
+         // not working yet, because we do not have provided any translations yet
           {
             type: 'localeDropdown',
             position: 'right',
           },
+          */
           {
             href: 'https://github.com/HighLo-Engine/HighLo-Engine',
             label: 'GitHub',
@@ -108,6 +113,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
+                label: 'Developer guide',
+                to: '/docs/developer-guide'
+              },
+              {
                 label: 'Tutorials for beginners',
                 to: '/tutorials',
               },
@@ -117,6 +126,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items:
             [
+              {
+                label: 'Blog',
+                to: 'blog'
+              },
               {
                 label: 'Discord',
                 href: 'https://discord.gg/xraRzHQ74U',
@@ -147,5 +160,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         darkTheme: darkCodeTheme,
         defaultLanguage: 'cpp',
       },
+      zoomSelector: '.markdown img',
     }),
 });
