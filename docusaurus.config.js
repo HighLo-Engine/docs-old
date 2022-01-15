@@ -65,13 +65,6 @@ const trackingConfig = {
 
   plugins: [
     'plugin-image-zoom',
-    [
-      '@docusaurus/plugin-sitemap',
-      {
-        changefreq: 'weekly',
-        priority: 0.5,
-      },
-    ],
   ],
 
   themeConfig:
