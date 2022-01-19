@@ -39,10 +39,26 @@ cd HighLo-Engine/scripts
 ```
 
 ```sh
-python ./GenerateEngine.py
-# or
 python3 ./GenerateEngine.py
 ```
 
 After executing these steps you will find a `HighLo.sln` file in the root folder of the Engine. This file can be opened by Visual Studio 2022 (as well as older versions).
+
+## Updating the engine
+
+If your branch changed you can update your local version with:
+
+```sh
+git pull
+```
+
+After updating the source you have to re-generate the visual studio solution (assuming your CWD is the root folder of the Engine)
+
+```sh
+cd scripts
+```
+
+```sh
+python3 ./GenerateEngine.py
+```
 
