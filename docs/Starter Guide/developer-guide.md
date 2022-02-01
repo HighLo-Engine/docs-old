@@ -1,10 +1,11 @@
 ---
-sidebar_label: Developer starter guide
+sidebar_label: Your first App
 sidebar_position: 2
 sidebar_class_name: dev-starter-guide
+slug: /developer-guide
 ---
 
-# Developer Guide
+# The basic setup
 
 In this user guide you will find basic information of how to interact with the engine's API in your C++ application.
 This user guide is meant to be for other **developers**, not users who just want to use the engine.
