@@ -1,6 +1,6 @@
 ---
 sidebar_label: Rendering into a file
-sidebar_position: 7
+sidebar_position: 6
 sidebar_class_name: rendering-into-file
 slug: /rendering-into-file
 ---
