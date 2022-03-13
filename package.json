@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "api": "node vendor/moxygen/bin/moxygen.js --anchors --classes --output=docs-api/api-%s.md xml/xml"
+    "api": "node vendor/moxygen/bin/moxygen.js --anchors --classes --pages --noindex --output=docs-api/api-%s.md xml/xml"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.14",

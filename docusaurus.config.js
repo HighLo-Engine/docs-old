@@ -65,6 +65,15 @@ const trackingConfig = {
 
   plugins: [
     'plugin-image-zoom',
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-api',
+        path: 'docs-api',
+        routeBasePath: 'api',
+        sidebarPath: require.resolve('./docsApi.js')
+      },
+    ],
   ],
 
   themeConfig:
@@ -96,6 +105,7 @@ const trackingConfig = {
          /*
           {
             type: 'docsVersionDropdown',
+            docsPluginId: 'docs',
             position: 'right',
             dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
             dropdownActiveClassDisabled: true,
